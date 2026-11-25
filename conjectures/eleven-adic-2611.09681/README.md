@@ -27,3 +27,5 @@ Both are divisible by 11 but not by 121.
 **Was it open?** The paper has only version 1 (6 Nov 2026), and we found no refutation. The paper proves the case a = 2 of part (2) as its Theorem 1.1, and our code reproduces that case (see the control in `verify.py`).
 
 **Verify.** Run `python3 verify.py`. It uses the standard library only and computes exact integer coefficients of the products, without any modular reduction.
+
+**Lean.** [`ElevenAdic.conjecturePart1_false`](../../lean/Conjectures/ElevenAdic.lean) refutes part (1), stated for a ≥ 0, which is weaker than the paper's statement. It is checked with Lean v4.36.0 and Mathlib v4.36.0, and uses only the axioms `propext`, `Classical.choice` and `Quot.sound`. Part (2) is checked in Python only.

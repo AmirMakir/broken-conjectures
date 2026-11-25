@@ -32,3 +32,5 @@ At k = 7 the inequality goes the other way, so on this tree neither model domina
 **Was it open?** Version 2 of the paper (18 Nov 2026) still states the conjecture, and we found no refutation.
 
 **Verify.** Run `python3 verify.py`. It uses exact fractions and the standard library only, and takes about a second. The static law is computed by brute force over all 2¹⁵ vertex subsets, and the sequential law by recursion over the sets of still-available vertices.
+
+**Lean.** [`RSA.conjecture52_false`](../../lean/Conjectures/RSA.lean) refutes the conjecture as worded. It is checked with Lean v4.36.0 and Mathlib v4.36.0, and uses only the axioms `propext`, `Classical.choice` and `Quot.sound`. Lean proves the two inequalities P[N_seq ≤ 6] ≥ 64/3375 and P[N_stat ≤ 6] ≤ 1/55, which is all the refutation needs.
