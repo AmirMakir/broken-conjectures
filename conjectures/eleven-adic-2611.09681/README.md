@@ -22,11 +22,7 @@ Let α ∈ ℕ and n ∈ ℕ₀. The conjecture has two parts:
 
 Both are divisible by 11 but not by 121.
 
-**Where it fails.** Many values of a satisfy the conjecture. Among a ∈ [−40, 60] with α ≤ 3, it fails at α = 3 only for these:
-- part (1): a = 36, 47, 58, 60, −37;
-- part (2): a = 51 (and a = 40 above).
-
-So the conjecture holds for small a but is false as stated, for all a in the given residue classes. n = 1 fails as well: for part (1) with a = 36, that is index 1385.
+**Where it fails.** No a fails at α ≤ 2, and many values of a satisfy the conjecture at α = 3 too. Among a ∈ [−300, 300], 75 values fail part (1) and 44 fail part (2); all of them have |a| ≥ 36. So the conjecture holds for small a but is false as stated, for all a in the given residue classes. n = 1 fails as well: for part (1) with a = 36, that is index 1385.
 
 **Was it open?** The paper has only version 1 (6 Nov 2026), and we found no refutation. The paper proves the case a = 2 of part (2) as its Theorem 1.1, and our code reproduces that case (see the control in `verify.py`).
 

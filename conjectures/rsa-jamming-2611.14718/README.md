@@ -25,9 +25,8 @@ P[N_seq ≤ 6] = 64/3375 ≈ 0.018963 > 1/55 ≈ 0.018182 = P[N_stat ≤ 6].
 At k = 7 the inequality goes the other way, so on this tree neither model dominates the other.
 
 **What we checked.**
-- No connected graph with Δ ≤ 3 on up to 13 vertices is a counterexample.
-- This tree is the first counterexample among trees.
-- The search over 14-vertex graphs was still running when this was written, so minimality is not claimed.
+- All 358,891 connected graphs with Δ ≤ 3 on up to 14 vertices satisfy the conjecture (the authors checked up to 12), so 15 vertices is the smallest possible size.
+- A second counterexample, also a tree, has 20 vertices.
 - Our code reproduces the paper's own numbers: its Figure 5, the counts in its Observation 5.1, and its count of 27,525 graphs.
 
 **Was it open?** Version 2 of the paper (18 Nov 2026) still states the conjecture, and we found no refutation.
