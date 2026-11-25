@@ -1,0 +1,3 @@
+import Conjectures.Hausmann
+import Conjectures.Cazenave
+import Conjectures.DistanceEnergy

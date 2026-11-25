@@ -14,4 +14,6 @@ V₈ is the smallest counterexample. There are 7 more on 10 to 13 vertices.
 
 This is an open question rather than a conjecture, and the 4/5 conjecture itself survives. Its minimum over all non-bipartite triangle-free cubic graphs on up to 12 vertices is exactly 4/5, and V₈ attains it. Question 5.5 (odd girth ≥ 7, pieces of order ≤ 5) also holds on all triangle-free subcubic graphs up to 13 vertices.
 
+**Lean.** [`Hausmann.question54_false`](../../lean/Conjectures/Hausmann.lean) refutes the question as worded. It is checked with Lean v4.36.0 and Mathlib v4.36.0, and uses only the axioms `propext`, `Classical.choice` and `Quot.sound`.
+
 **Verify.** Run `python3 verify.py`. It uses the standard library only and does a brute force over all 256 vertex subsets.

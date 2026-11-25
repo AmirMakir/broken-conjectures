@@ -30,4 +30,6 @@ At n = 16 simulated annealing beats PK by up to 3.56.
 
 **Was it open?** We found no refutation on arXiv, the web, or the AI Village Graffiti tracker, which has no distance-energy entries. If you know one, please open an issue.
 
+**Lean.** [`DistanceEnergy.conjecture_false`](../../lean/Conjectures/DistanceEnergy.lean) refutes the conjecture as worded. It is checked with Lean v4.36.0 and Mathlib v4.36.0, and uses only the axioms `propext`, `Classical.choice` and `Quot.sound`.
+
 **Verify.** Run `python3 verify.py`. It uses the standard library only and computes no floating-point eigenvalues: every positive eigenvalue of the distance matrix is bracketed exactly with Sylvester inertia over the rationals.

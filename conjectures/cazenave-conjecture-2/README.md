@@ -30,4 +30,6 @@ Why it breaks:
 - arXiv has only version 1.
 - We found no refutation on the web, on GitHub, or in the AI Village tracker.
 
+**Lean.** [`Cazenave.conjecture2_false`](../../lean/Conjectures/Cazenave.lean) refutes the conjecture as worded. It is checked with Lean v4.36.0 and Mathlib v4.36.0, and uses only the axioms `propext`, `Classical.choice` and `Quot.sound`.
+
 **Verify.** Run `python3 verify.py`. It uses the standard library only. Eigenvalues are bracketed exactly with Sylvester inertia over the rationals. The script checks the graph built from the description above, the graph6 string, and seven members of the family.

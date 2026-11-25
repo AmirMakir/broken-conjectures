@@ -6,6 +6,8 @@ This repository collects counterexamples to open mathematical conjectures, found
 python3 verify_all.py
 ```
 
+Results 1, 3 and 4 are also proved in Lean 4 with Mathlib, in [lean/](lean/). Each Lean statement is the conjecture in its general form, and each proof uses only Lean's three standard axioms. The Lean proofs of results 2 and 6 are in progress.
+
 | | Conjecture | Source | Counterexample |
 |---|---|---|---|
 | 1 | [For m ≤ (n−2)(n−3)/2, a clique with a path appended maximises distance energy](conjectures/distance-energy-2009/) | Caporossi, Chasset, Furtula 2009, Conj. 4; Aouchiche–Hansen survey 2014, Conj. 8.13 | 12 vertices, 44 edges |
