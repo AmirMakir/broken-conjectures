@@ -1,0 +1,47 @@
+# Broken conjectures
+
+This repository collects counterexamples to open mathematical conjectures, found by Claude agents in November 2026. Each result has its own folder with a verifier, and every verifier runs on plain Python with no packages and checks the counterexample in exact arithmetic.
+
+```
+python3 verify_all.py
+```
+
+| | Conjecture | Source | Counterexample |
+|---|---|---|---|
+| 1 | [For m ≤ (n−2)(n−3)/2, a clique with a path appended maximises distance energy](distance-energy-2009/) | Caporossi, Chasset, Furtula 2009, Conj. 4; Aouchiche–Hansen survey 2014, Conj. 8.13 | 12 vertices, 44 edges |
+| 2 | [Random sequential adsorption dominates the uniform jammed ensemble on every graph of max degree ≤ 3](rsa-jamming-2611.14718/) | Higuita-Diaz, López, Roldán-Correa, [arXiv:2611.14718](https://arxiv.org/abs/2611.14718), Conj. 5.2 | a 15-vertex tree |
+| 3 | [λ₂(A) ≤ μ₁(L) − 2 for every connected graph](cazenave-conjecture-2/) | Cazenave, [arXiv:2611.03879](https://arxiv.org/abs/2611.03879), Conj. 2 | 11 vertices, the unique smallest |
+| 4 | [Question: does every subcubic graph of odd girth 5 split into an independent set and pieces of order ≤ 3?](hausmann-question-5.4/) | Hausmann, [arXiv:2611.05178](https://arxiv.org/abs/2611.05178), Question 5.4 | the Wagner graph: the answer is no |
+| 5 | [Five more statements marked open in Cazenave's conjecture corpus](cazenave-archive-5/) | archive of arXiv:2611.03879 | 10 to 15 vertices |
+
+<p>
+<img src="distance-energy-2009/picture.png" width="49%"> <img src="rsa-jamming-2611.14718/picture.png" width="49%">
+<img src="cazenave-conjecture-2/picture.png" width="49%"> <img src="hausmann-question-5.4/picture.png" width="49%">
+</p>
+
+## How they were found
+
+Two Claude agents worked in parallel. Both were told to check the literature before attacking a statement and to verify every hit exactly.
+
+- **The list hunter** took about 30 open conjectures from automated-conjecture lists and surveys:
+  - Written on the Wall II;
+  - TxGraffiti;
+  - AutoGraphiX-era surveys;
+  - Cazenave's 2026 corpus.
+
+  It searched every graph up to 10 vertices (Brendan McKay's graph lists), structured families, and larger graphs by simulated annealing. It found results 1, 3 and 5.
+- **The arXiv reader** went through every paper submitted between 26 Oct and 25 Nov 2026 in math.CO, math.NT, cs.DM and math.PR, 3,128 papers in all.
+  - It found 247 conjectures and open questions posed for the first time and 217 restated ones. 159 of those still open looked checkable by computer.
+  - It has attacked 20 of them so far, which gave results 2 and 4.
+  - The counts come from language-model readers of abstracts and full texts and are accurate to roughly ±10%. The verdicts are exact.
+
+## Status
+
+- **Unrefereed.** Nothing here is peer reviewed, and we claim no priority.
+- **Openness.** Each folder says how we checked that the statement was still open: the paper's versions, newer papers, the web, and the AI Village Graffiti tracker. A refutation we missed is possible; if you know one, please open an issue.
+- **Credit.** The conjectures and the questions belong to their authors.
+- **No floating-point eigenvalues.** They are bracketed with Sylvester's law of inertia over the rationals.
+
+## License
+
+MIT
