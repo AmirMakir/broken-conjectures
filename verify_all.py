@@ -4,7 +4,7 @@ import os
 import subprocess
 import sys
 
-root = os.path.dirname(os.path.abspath(__file__))
+root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "conjectures")
 folders = sorted(d for d in os.listdir(root) if os.path.isfile(os.path.join(root, d, "verify.py")))
 results = []
 for d in folders:

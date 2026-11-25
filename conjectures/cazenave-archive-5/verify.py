@@ -15,7 +15,7 @@ Run: python3 verify.py      (Python 3.8+, standard library only)
 import os
 import sys
 from decimal import Decimal, getcontext
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "lib"))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "lib"))
 from exact import graph6, degrees, laplacian, distances, kth_largest, rank
 
 getcontext().prec = 60

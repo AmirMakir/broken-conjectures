@@ -8,15 +8,15 @@ python3 verify_all.py
 
 | | Conjecture | Source | Counterexample |
 |---|---|---|---|
-| 1 | [For m ≤ (n−2)(n−3)/2, a clique with a path appended maximises distance energy](distance-energy-2009/) | Caporossi, Chasset, Furtula 2009, Conj. 4; Aouchiche–Hansen survey 2014, Conj. 8.13 | 12 vertices, 44 edges |
-| 2 | [Random sequential adsorption dominates the uniform jammed ensemble on every graph of max degree ≤ 3](rsa-jamming-2611.14718/) | Higuita-Diaz, López, Roldán-Correa, [arXiv:2611.14718](https://arxiv.org/abs/2611.14718), Conj. 5.2 | a 15-vertex tree |
-| 3 | [λ₂(A) ≤ μ₁(L) − 2 for every connected graph](cazenave-conjecture-2/) | Cazenave, [arXiv:2611.03879](https://arxiv.org/abs/2611.03879), Conj. 2 | 11 vertices, the unique smallest |
-| 4 | [Question: does every subcubic graph of odd girth 5 split into an independent set and pieces of order ≤ 3?](hausmann-question-5.4/) | Hausmann, [arXiv:2611.05178](https://arxiv.org/abs/2611.05178), Question 5.4 | the Wagner graph: the answer is no |
-| 5 | [Five more statements marked open in Cazenave's conjecture corpus](cazenave-archive-5/) | archive of arXiv:2611.03879 | 10 to 15 vertices |
+| 1 | [For m ≤ (n−2)(n−3)/2, a clique with a path appended maximises distance energy](conjectures/distance-energy-2009/) | Caporossi, Chasset, Furtula 2009, Conj. 4; Aouchiche–Hansen survey 2014, Conj. 8.13 | 12 vertices, 44 edges |
+| 2 | [Random sequential adsorption dominates the uniform jammed ensemble on every graph of max degree ≤ 3](conjectures/rsa-jamming-2611.14718/) | Higuita-Diaz, López, Roldán-Correa, [arXiv:2611.14718](https://arxiv.org/abs/2611.14718), Conj. 5.2 | a 15-vertex tree |
+| 3 | [λ₂(A) ≤ μ₁(L) − 2 for every connected graph](conjectures/cazenave-conjecture-2/) | Cazenave, [arXiv:2611.03879](https://arxiv.org/abs/2611.03879), Conj. 2 | 11 vertices, the unique smallest |
+| 4 | [Question: does every subcubic graph of odd girth 5 split into an independent set and pieces of order ≤ 3?](conjectures/hausmann-question-5.4/) | Hausmann, [arXiv:2611.05178](https://arxiv.org/abs/2611.05178), Question 5.4 | the Wagner graph: the answer is no |
+| 5 | [Five more statements marked open in Cazenave's conjecture corpus](conjectures/cazenave-archive-5/) | archive of arXiv:2611.03879 | 10 to 15 vertices |
 
 <p>
-<img src="distance-energy-2009/picture.png" width="49%"> <img src="rsa-jamming-2611.14718/picture.png" width="49%">
-<img src="cazenave-conjecture-2/picture.png" width="49%"> <img src="hausmann-question-5.4/picture.png" width="49%">
+<img src="conjectures/distance-energy-2009/picture.png" width="49%"> <img src="conjectures/rsa-jamming-2611.14718/picture.png" width="49%">
+<img src="conjectures/cazenave-conjecture-2/picture.png" width="49%"> <img src="conjectures/hausmann-question-5.4/picture.png" width="49%">
 </p>
 
 ## How they were found
