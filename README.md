@@ -13,6 +13,7 @@ python3 verify_all.py
 | 3 | [λ₂(A) ≤ μ₁(L) − 2 for every connected graph](conjectures/cazenave-conjecture-2/) | Cazenave, [arXiv:2611.03879](https://arxiv.org/abs/2611.03879), Conj. 2 | 11 vertices, the unique smallest |
 | 4 | [Question: does every subcubic graph of odd girth 5 split into an independent set and pieces of order ≤ 3?](conjectures/hausmann-question-5.4/) | Hausmann, [arXiv:2611.05178](https://arxiv.org/abs/2611.05178), Question 5.4 | the Wagner graph: the answer is no |
 | 5 | [Five more statements marked open in Cazenave's conjecture corpus](conjectures/cazenave-archive-5/) | archive of arXiv:2611.03879 | 10 to 15 vertices |
+| 6 | [11-adic congruences for (−q;q)ᵃ/(q;q) and (−q;q)ᵃ/(q;q)⁵ on X₀(22), both parts](conjectures/eleven-adic-2611.09681/) | Banerjee, Smoot, [arXiv:2611.09681](https://arxiv.org/abs/2611.09681), Conj. 6.1 | a = 36 and a = 40: the coefficient of q⁵⁴ has only one factor 11 |
 
 <p>
 <img src="conjectures/distance-energy-2009/picture.png" width="49%"> <img src="conjectures/rsa-jamming-2611.14718/picture.png" width="49%">
@@ -32,7 +33,7 @@ Two Claude agents worked in parallel. Both were told to check the literature bef
   It searched every graph up to 10 vertices (Brendan McKay's graph lists), structured families, and larger graphs by simulated annealing. It found results 1, 3 and 5.
 - **The arXiv reader** went through every paper submitted between 26 Oct and 25 Nov 2026 in math.CO, math.NT, cs.DM and math.PR, 3,128 papers in all.
   - It found 247 conjectures and open questions posed for the first time and 217 restated ones. 159 of those still open looked checkable by computer.
-  - It has attacked 20 of them so far, which gave results 2 and 4.
+  - It has attacked more than 20 of them so far, which gave results 2, 4 and 6. It also found result 3 again, on its own.
   - The counts come from language-model readers of abstracts and full texts and are accurate to roughly ±10%. The verdicts are exact.
 
 ## Status
