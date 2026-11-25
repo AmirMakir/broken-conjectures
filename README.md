@@ -10,7 +10,7 @@ Results 1 to 4 and result 6 (part 1) are also proved in Lean 4 with Mathlib, in 
 
 | | Conjecture | Source | Counterexample |
 |---|---|---|---|
-| 1 | [For m ≤ (n−2)(n−3)/2, a clique with a path appended maximises distance energy](conjectures/distance-energy-2009/) | Caporossi, Chasset, Furtula 2009, Conj. 4; Aouchiche–Hansen survey 2014, Conj. 8.13 | 12 vertices, 44 edges |
+| 1 | [For m ≤ (n−2)(n−3)/2, a clique with a path appended maximises distance energy](conjectures/distance-energy-2009/) | Caporossi, Chasset, Furtula, [GERAD G-2009-64](https://www.gerad.ca/papers/G-2009-64.pdf) (2009), Conj. 4; Aouchiche–Hansen survey 2014, Conj. 8.13 | 12 vertices, 44 edges |
 | 2 | [Random sequential adsorption dominates the uniform jammed ensemble on every graph of max degree ≤ 3](conjectures/rsa-jamming-2611.14718/) | Higuita-Diaz, López, Roldán-Correa, [arXiv:2611.14718](https://arxiv.org/abs/2611.14718), Conj. 5.2 | a 15-vertex tree |
 | 3 | [λ₂(A) ≤ μ₁(L) − 2 for every connected graph](conjectures/cazenave-conjecture-2/) | Cazenave, [arXiv:2611.03879](https://arxiv.org/abs/2611.03879), Conj. 2 | 11 vertices, the unique smallest |
 | 4 | [Question: does every subcubic graph of odd girth 5 split into an independent set and pieces of order ≤ 3?](conjectures/hausmann-question-5.4/) | Hausmann, [arXiv:2611.05178](https://arxiv.org/abs/2611.05178), Question 5.4 | the Wagner graph: the answer is no |
